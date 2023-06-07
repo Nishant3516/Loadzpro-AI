@@ -3,8 +3,7 @@ import requests
 
 def make_api_request(access_token):
     # Replace with the actual API endpoint URL
-    # url = "https://staging.loadzpro.app/v1/search_loads/ch_robinson/"
-    url = "https://staging.loadzpro.app/v1/search_loads/123_loadboard/"
+    url = "https://staging.loadzpro.app/v1/search_loads/ch_robinson/"
 
     headers = {
         "Authorization": f"Bearer {access_token}"}
